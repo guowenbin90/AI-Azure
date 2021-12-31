@@ -18,3 +18,8 @@ allowing computers to identify related data, and forecast future outcomes, behav
 - Regression, Classification, Forecasting
 - Clustering
 ## Data Science Process
+- Collect data: Write code
+- Prepare data: Wrtie queries & code
+- Train model: Write code & do some math
+- Evaluate model: Write code & do some math
+- Delopy model -> Re-train model
