@@ -17,3 +17,4 @@ allowing computers to identify related data, and forecast future outcomes, behav
 4. Analytics
 - Regression, Classification, Forecasting
 - Clustering
+## Data Science Process
