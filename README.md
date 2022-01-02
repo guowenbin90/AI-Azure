@@ -29,3 +29,10 @@ allowing computers to identify related data, and forecast future outcomes, behav
 - Categorical
 - Text
 - Image
+## Scaling data
+Standardization rescales data so that it has a mean of 0 and a standard deviation of 1. (𝑥 − 𝜇)/𝜎  
+Normalization rescales the data into the range [0, 1]. (𝑥 −𝑥𝑚𝑖𝑛)/(𝑥𝑚𝑎𝑥 −𝑥𝑚𝑖𝑛)
+## Encoding Categorical Data
+- Ordinal encoding: One of the potential drawbacks to this approach is that it implicitly assumes an order across the categories. In the above example, Blue (which is encoded with a value of 2) seems to be more than Red (which is encoded with a value of 1), even though this is in fact not a meaningful way of comparing those values.
+- One hot encoding: One drawback of one-hot encoding is that it can potentially generate a very large number of columns.
+
