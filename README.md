@@ -23,3 +23,9 @@ allowing computers to identify related data, and forecast future outcomes, behav
 - Train model: Write code & do some math
 - Evaluate model: Write code & do some math
 - Delopy model -> Re-train model
+## Types of Data
+- Numerical
+- Time-Series
+- Categorical
+- Text
+- Image
