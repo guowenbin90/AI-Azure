@@ -36,3 +36,7 @@ Normalization rescales the data into the range [0, 1]. (𝑥 −𝑥𝑚𝑖𝑛
 - Ordinal encoding: One of the potential drawbacks to this approach is that it implicitly assumes an order across the categories. In the above example, Blue (which is encoded with a value of 2) seems to be more than Red (which is encoded with a value of 1), even though this is in fact not a meaningful way of comparing those values.
 - One hot encoding: One drawback of one-hot encoding is that it can potentially generate a very large number of columns.
 ## Text Data
+**Text normalization** is the process of transforming a piece of text into a canonical (official) form.  
+Lemmatization is an example of normalization. A lemma is the dictionary form of a word and lemmatization is the process of reducing multiple inflections to that single dictionary form. For example, is, am, are -> be  
+**Stop words** are high-frequency words that are unnecessary (or unwanted) during the analysis.  
+**tokenized** the text (i.e., split each string of text into a list of smaller parts or tokens)  
