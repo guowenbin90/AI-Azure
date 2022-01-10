@@ -65,3 +65,9 @@ given the values of the independent variables can predict the values of the depe
 - Seaborn is a Python library designed specifically for data visualization. It is based on matplotlib, but provides a more high-level interface and has additional features for making visualizations more attractive and informative.
 - Bokeh is an interactive data visualization library. In contrast to a library like matplotlib that generates a static image as its output, Bokeh generates visualizations in HTML and JavaScript. This allows for web-based visualizations that can have interactive features.
 
+## Classical ML vs. Deep Learning
+
+## Approaches to machine learning:
+- Supervised learning
+- Unsupervised learning
+- Reinforcement learning
