@@ -68,6 +68,31 @@ given the values of the independent variables can predict the values of the depe
 ## Classical ML vs. Deep Learning
 
 ## Approaches to machine learning:
-- Supervised learning
-- Unsupervised learning
-- Reinforcement learning
+1. Supervised learning
+- **Classification**: Outputs are categorical.
+- **Regression**: Outputs are continuous and numerical.
+- **Similarity learning**: Learns from examples using a similarity function that measures how similar two objects are.
+- **Feature learning**: Learns to automatically discover the representations or features from raw data.
+- **Anomaly detection**: A special form of classification, which learns from data labeled as normal/abnormal.
+2. Unsupervised learning
+- **Clustering**: Assigns entities to clusters or groups.
+- **Feature learning**: Features are learned from unlabeled data.
+- **Anomaly detection**: Learns from unlabeled data, using the assumption that the majority of entities are normal.
+3. Reinforcement learning
+- **Markov decision process**: A mathematical process to model decision-making in situations where outcomes are partly random and partly under the control of a decision-maker. Does not assume knowledge of an exact mathematical model.
+
+## The Trade-Offs
+**Bias** measures how inaccurate the model prediction is in comparison with the true output. It is due to erroneous assumptions made in the machine learning process to simplify the model and make the target function easier to learn. High model complexity tends to have a low bias.  
+**Variance** measures how much the target function will change if different training data is used. Variance can be caused by modeling the random noise in the training data. High model complexity tends to have a high variance.  
+**Overfitting** refers to the situation in which models fit the training data very well, but fail to generalize to new data.  
+**Underfitting** refers to the situation in which models neither fit the training data nor generalize to new data.
+
+prediction error = Bias error + variance + error + irreducible error  
+
+**Overfitting vs. Underfitting**
+- **k-fold cross-validation**: it split the initial training data into k subsets and train the model k times. In each training, it uses one subset as the testing data and the rest as training data.
+- hold back a **validation dataset** from the initial training data to estimatete how well the model generalizes on new data.
+- **simplify** the model. For example, using fewer layers or less neurons to make the neural network smaller.
+- use **more data**.
+- **reduce dimensionality** in training data such as PCA: it projects training data into a smaller dimension to decrease the model complexity.
+- **Stop the training early** when the performance on the testing dataset has not improved after a number of training iterations.
