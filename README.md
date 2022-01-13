@@ -1,4 +1,4 @@
-
+# Introduction to machine learning
 ## What is machine learning
 Machine learning is a data science technique used to extract patterns from data, 
 allowing computers to identify related data, and forecast future outcomes, behaviors, and trends.
@@ -96,3 +96,5 @@ prediction error = Bias error + variance + error + irreducible error
 - use **more data**.
 - **reduce dimensionality** in training data such as PCA: it projects training data into a smaller dimension to decrease the model complexity.
 - **Stop the training early** when the performance on the testing dataset has not improved after a number of training iterations.
+
+# Model training
