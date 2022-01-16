@@ -98,3 +98,4 @@ prediction error = Bias error + variance + error + irreducible error
 - **Stop the training early** when the performance on the testing dataset has not improved after a number of training iterations.
 
 # Model training
+# Applications of machine learning
